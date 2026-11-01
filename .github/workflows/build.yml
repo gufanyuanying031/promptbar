@@ -1,0 +1,13 @@
+name: macOS build and checks
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build native app
+        run: zsh Source/build.sh
+      - name: Run core and state checks
+        run: zsh scripts/test.sh

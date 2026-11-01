@@ -1,0 +1,7 @@
+.DS_Store
+PromptBar.app/
+dist/
+.build-cache/
+*.log
+.env*
+!*.example

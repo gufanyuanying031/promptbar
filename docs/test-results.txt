@@ -1,0 +1,76 @@
+PASS OpenAI path
+PASS OpenAI auth
+PASS non-stream response
+PASS openAI parsing
+PASS anthropic parsing
+PASS gemini parsing
+PASS HTTP 401
+PASS HTTP 403
+PASS HTTP 404
+PASS HTTP 429
+PASS HTTP 500
+PASS empty output rejected
+PASS unsafe URL rejected
+PASS unsafe URL rejected
+PASS unsafe URL rejected
+PASS Anthropic path
+PASS Anthropic auth
+PASS Gemini path
+PASS Gemini key in header
+PASS preferences round trip
+PASS expanded panel fits screen
+PASS collapse restores capsule anchor near edge
+PASS expanded panel fits screen
+PASS collapse restores capsule anchor near edge
+PASS expanded panel fits screen
+PASS collapse restores capsule anchor near edge
+PASS expanded panel fits screen
+PASS collapse restores capsule anchor near edge
+PASS expanded panel fits screen
+PASS collapse restores capsule anchor near edge
+PASS expanded panel fits screen
+PASS collapse restores capsule anchor near edge
+PASS expanded panel fits screen
+PASS collapse restores capsule anchor near edge
+PASS expanded panel fits screen
+PASS collapse restores capsule anchor near edge
+PASS expanded panel fits screen
+PASS collapse restores capsule anchor near edge
+PASS expanded panel fits screen
+PASS collapse restores capsule anchor near edge
+PASS expanded panel fits screen
+PASS collapse restores capsule anchor near edge
+PASS expanded panel fits screen
+PASS collapse restores capsule anchor near edge
+PASS negative display coordinates
+PASS separate detail fits display
+PASS capsule unchanged by detail placement
+PASS detail does not displace or overlap capsule
+PASS separate detail fits display
+PASS capsule unchanged by detail placement
+PASS detail does not displace or overlap capsule
+PASS separate detail fits display
+PASS capsule unchanged by detail placement
+PASS detail does not displace or overlap capsule
+PASS separate detail fits display
+PASS capsule unchanged by detail placement
+PASS detail does not displace or overlap capsule
+57 checks passed. No live API request was made.
+PASS original/result toggle without API
+PASS manual edit resets snapshots
+PASS pinned draft saved without duplication
+PASS style/provider independence
+PASS entries and preferences survive relaunch
+PASS history cap retains pinned entries
+PASS cancel preserves draft
+PASS long editor toggles independently
+PASS saving leaves reading and draft unchanged
+PASS animation ignores hover reentry, normal hover still expands
+PASS clear resets current prompt and reports confirmation
+PASS long editor collapses after pointer leaves
+PASS successive feedback expires without stale state
+PASS invalid custom style preserves current content without API
+PASS empty draft changes style without API
+PASS English UI labels and unchanged model IDs / user content
+PASS language switches back immediately
+17 state checks passed. No live API request was made.
