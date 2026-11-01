@@ -262,7 +262,7 @@ struct RootView: View {
                         Image(systemName:m.showingResult ? "arrow.uturn.backward" : "sparkles").font(.system(size:15,weight:.medium)).foregroundStyle(.white)
                     }
                 }.frame(width:32,height:32)
-            }.buttonStyle(TactileButtonStyle()).help(m.busy ? L("取消优化") : m.showingResult ? L("还原原文") : m.result != nil ? L("切回优化稿") : L("优化提示词"))
+            }.buttonStyle(TactileButtonStyle()).modifier(HoverHint(text:m.busy ? L("取消优化") : m.showingResult ? L("还原原文") : m.result != nil ? L("切回优化稿") : L("优化提示词")))
                 .keyboardShortcut(.return,modifiers:.command).disabled(m.draft.isEmpty)
         }.help(m.error.isEmpty ? m.notice : m.error)
         .overlay(alignment:.bottomTrailing) {
